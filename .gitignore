@@ -1,0 +1,32 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Apps subdirectories (separate git repos)
+# Ignore apps/ since they are separate git repositories
+apps/
+
+# Node modules (if any in root)
+node_modules/
+
+# Database
+*.sql.backup
+*.db
+
