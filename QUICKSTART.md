@@ -22,7 +22,7 @@ git clone <mmm-backend-repository-url> apps/mmm-backend
 cp .env.example .env
 ```
 
-*(Optional: Edit `.env` if you need custom ports or database credentials)*
+_(Optional: Edit `.env` if you need custom ports or database credentials)_
 
 ## Step 3: Start Everything
 
@@ -43,7 +43,7 @@ docker compose up -d
 ✅ Docker images are built/pulled  
 ✅ Dependencies are installed (Composer & npm)  
 ✅ Database is created and migrations run  
-✅ All services start and connect  
+✅ All services start and connect
 
 ## Need Help?
 
@@ -55,4 +55,3 @@ docker compose up -d
 ---
 
 **Happy coding!** 💻
-
