@@ -27,10 +27,12 @@ _(Optional: Edit `.env` if you need custom ports or database credentials)_
 ## Step 3: Start Everything
 
 ```bash
-docker compose up -d
+docker compose up -d --build
 ```
 
 **That's it!** 🎉
+
+**Note:** Use `--build` the first time to ensure all Docker images are built. After that, you can use just `docker compose up -d`.
 
 ## Access Your Application
 
