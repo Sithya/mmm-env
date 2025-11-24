@@ -25,12 +25,21 @@ mmm-env/
 
 ### Setup & Run
 
-1. **Clone the repository** (if working with Git):
+1. **Clone the repositories**:
 
    ```bash
-   git clone <repository-url>
+   # Clone the main environment repository
+   git clone <mmm-env-repository-url>
    cd mmm-env
+   
+   # Clone the frontend repository
+   git clone <mmm-frontend-repository-url> apps/mmm-frontend
+   
+   # Clone the backend repository
+   git clone <mmm-backend-repository-url> apps/mmm-backend
    ```
+
+   **Note:** Since `apps/` contains separate Git repositories, you need to clone them into the `apps/` directory.
 
 2. **Create environment file**:
 

@@ -2,12 +2,19 @@
 
 Get up and running in 3 steps!
 
-## Step 1: Clone & Navigate
+## Step 1: Clone Repositories
 
 ```bash
-git clone <repository-url>
+# Clone the main environment repository
+git clone <mmm-env-repository-url>
 cd mmm-env
+
+# Clone the frontend and backend repositories
+git clone <mmm-frontend-repository-url> apps/mmm-frontend
+git clone <mmm-backend-repository-url> apps/mmm-backend
 ```
+
+**Note:** The `apps/` directory contains separate Git repositories that need to be cloned separately.
 
 ## Step 2: Create Environment File
 
